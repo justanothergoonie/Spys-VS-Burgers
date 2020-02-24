@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>Spys vs Burgers</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Arvo|Playfair+Display&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="dist/css/main.css">
+
+
+
+	</head>
+	<body>
+		<div class="container">
+			<div class="containerA">
+				<img id="page1A" class="optionA pageA active" on-hoverA-switch-img-to="page2A" alt="" src="dist/img/archer.jpg">
+				<img id="page2A" class="optionA pageA" on-hoverA-switch-img-to="page3A" alt="" src="dist/img/archer2.jpg">
+				<img id="page3A" class="optionA pageA" on-hoverA-switch-img-to="page4A" alt="" src="dist/img/archer3.jpg">
+				<img id="page4A" class="optionA pageA" on-hoverA-switch-img-to="page5A" alt="" src="dist/img/archer4.jpg">
+				<img id="page5A" class="optionA pageA" on-hoverA-switch-img-to="page1A" alt="" src="dist/img/archer5.jpg">
+				<p>Archer</p>
+				<div class="optionACount"></div>
+			</div>
+			<div class="containerB">
+				<img id="page1B" class="optionB pageB active"  on-hoverB-switch-img-to="page2B" src="dist/img/bobs.jpg" alt="">
+				<img id="page2B" class="optionB pageB"  on-hoverB-switch-img-to="page3B" src="dist/img/bobs2.webp" alt="">
+				<img id="page3B" class="optionB pageB"  on-hoverB-switch-img-to="page4B" src="dist/img/bobs3.jpg" alt="">
+				<img id="page4B" class="optionB pageB"  on-hoverB-switch-img-to="page5B" src="dist/img/bobs4.jpeg" alt="">
+				<img id="page5B" class="optionB pageB"  on-hoverB-switch-img-to="page1B" src="dist/img/bobs5.jpg" alt="">
+				<p>Bobs Burgers</p>
+				<div class="optionBCount"></div>
+			</div> 
+		</div>
+		<div class="container">
+			<div class="bar">
+				<div class="prog"></div>
+			</div>
+		</div>
+		<button class="reset">Reset</button>
+
+
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js" integrity="sha256-T/f7Sju1ZfNNfBh7skWn0idlCBcI3RwdLSS4/I7NQKQ=" crossorigin="anonymous"></script>
+
+		<script src="dist/js/main.js"></script>
+		<script src="dist/pageSystem/main.js"></script>
+	</body>
+</html>
